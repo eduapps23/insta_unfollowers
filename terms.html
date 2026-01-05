@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Términos y Condiciones / Terms and Conditions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #E1306C;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #fafafa;
+      color: #262626;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px solid #dbdbdb;
+      position: relative;
+    }
+
+    a {
+      color: #0095f6;
+      text-decoration: none;
+    }
+
+    /* LANGUAGE SELECTOR */
+    .lang-selector {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .lang-btn {
+      padding: 5px 12px;
+      background: white;
+      border: 1px solid #dbdbdb;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .lang-btn:hover {
+      background: #f0f0f0;
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+      .lang-selector {
+        position: static;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+      }
+    }
+
+    .lang-content {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="lang-selector">
+      <button class="lang-btn" onclick="changeLang('es')">🇪🇸 Español</button>
+      <button class="lang-btn" onclick="changeLang('en')">🇬🇧 English</button>
+    </div>
+
+    <!-- SPANISH CONTENT -->
+    <div id="content-es" class="lang-content">
+      <h1>Términos y Condiciones de Uso</h1>
+
+      <p><strong>Última actualización:</strong> [fecha]</p>
+
+      <p>
+        Bienvenido a <strong>[Nombre de la aplicación o sitio web]</strong> (en adelante, “la Aplicación”).
+        Al acceder y utilizar esta Aplicación, el usuario acepta expresamente los presentes
+        Términos y Condiciones. Si no está de acuerdo con ellos, deberá abstenerse de utilizar la Aplicación.
+      </p>
+
+      <h2>1. Descripción del servicio</h2>
+
+      <p>
+        La Aplicación ofrece una herramienta que permite comparar archivos JSON descargados directamente
+        por el usuario desde Instagram, con el fin de mostrar diferencias entre listas de seguidores y seguidos,
+        incluyendo:
+      </p>
+
+      <ul>
+        <li>Usuarios que no siguen de vuelta.</li>
+        <li>Usuarios que siguen al usuario, pero no reciben seguimiento recíproco.</li>
+      </ul>
+
+      <p>
+        La herramienta tiene un propósito exclusivamente informativo y de análisis personal.
+      </p>
+
+      <h2>2. No afiliación con Instagram</h2>
+
+      <p>
+        La Aplicación no está afiliada, patrocinada, autorizada ni administrada por Instagram ni por
+        Meta Platforms, Inc.
+      </p>
+
+      <p>
+        Instagram y Meta son marcas registradas de sus respectivos propietarios.
+        El uso de dichos nombres se realiza únicamente con fines descriptivos.
+      </p>
+
+      <h2>3. Uso de datos y privacidad</h2>
+
+      <ul>
+        <li>La Aplicación no solicita usuario, contraseña ni credenciales de Instagram.</li>
+        <li>Los archivos JSON son descargados manualmente por el propio usuario desde Instagram.</li>
+        <li>El procesamiento de los archivos se realiza localmente en el navegador del usuario.</li>
+        <li>La Aplicación no almacena, guarda, transmite ni comparte los archivos JSON ni sus datos.</li>
+      </ul>
+
+      <p>
+        El usuario es el único responsable de los datos que decide cargar y analizar.
+      </p>
+
+      <p>
+        Para más información, consulte nuestra <a href="privacy.html">Política de Privacidad</a>.
+      </p>
+
+      <h2>4. Responsabilidad del usuario</h2>
+
+      <ul>
+        <li>El uso de la Aplicación se realiza bajo su propia responsabilidad.</li>
+        <li>La Aplicación no garantiza la exactitud, integridad ni actualización de los resultados mostrados.</li>
+        <li>El usuario es responsable de cumplir con los Términos de Uso de Instagram y la legislación aplicable.</li>
+        <li>
+          La Aplicación no se hace responsable de suspensiones, restricciones, bloqueos o sanciones
+          derivadas del uso de información obtenida desde Instagram.
+        </li>
+      </ul>
+
+      <h2>5. Limitación de responsabilidad</h2>
+
+      <p>
+        En ningún caso <strong>[Nombre del responsable o sitio]</strong> será responsable por:
+      </p>
+
+      <ul>
+        <li>Daños directos o indirectos derivados del uso o imposibilidad de uso de la Aplicación.</li>
+        <li>Pérdida de datos, cuentas o información.</li>
+        <li>Decisiones tomadas por el usuario basadas en los resultados de la herramienta.</li>
+        <li>Errores técnicos, interrupciones del servicio o fallos del navegador.</li>
+      </ul>
+
+      <h2>6. Uso adecuado</h2>
+
+      <ul>
+        <li>Utilizar la Aplicación únicamente con fines personales y legítimos.</li>
+        <li>No utilizarla para actividades ilícitas o abusivas.</li>
+        <li>No intentar modificar, descompilar o interferir con el funcionamiento de la Aplicación.</li>
+      </ul>
+
+      <h2>7. Publicidad y monetización</h2>
+
+      <p>
+        La Aplicación puede mostrar anuncios de terceros para su monetización.
+      </p>
+
+      <p>
+        Estos anuncios pueden utilizar cookies o tecnologías similares conforme a la Política de Privacidad.
+      </p>
+
+      <h2>8. Modificaciones</h2>
+
+      <p>
+        Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento.
+        Las modificaciones entrarán en vigor desde su publicación en el sitio web.
+      </p>
+
+      <h2>9. Legislación aplicable</h2>
+
+      <p>
+        Estos Términos y Condiciones se rigen por las leyes de <strong>[país del responsable]</strong>,
+        sin perjuicio de las disposiciones de protección al consumidor que resulten aplicables.
+      </p>
+
+      <h2>10. Contacto</h2>
+
+      <p>
+        Para cualquier consulta relacionada con estos Términos y Condiciones, puede contactarnos en:
+      </p>
+
+      <p>
+        📧 <strong>[correo de contacto]</strong>
+      </p>
+    </div>
+
+    <!-- ENGLISH CONTENT -->
+    <div id="content-en" class="lang-content">
+      <h1>Terms and Conditions of Use</h1>
+
+      <p><strong>Last Updated:</strong> [date]</p>
+
+      <p>
+        Welcome to <strong>[App or Website Name]</strong> (hereinafter, "the App").
+        By accessing and using this App, the user expressly accepts these
+        Terms and Conditions. If you do not agree with them, you must refrain from using the App.
+      </p>
+
+      <h2>1. Service Description</h2>
+
+      <p>
+        The App offers a tool that allows comparing JSON files downloaded directly
+        by the user from Instagram, in order to show differences between followers and following lists,
+        including:
+      </p>
+
+      <ul>
+        <li>Users who do not follow back.</li>
+        <li>Users who follow the user, but do not receive reciprocal following.</li>
+      </ul>
+
+      <p>
+        The tool is for exclusively informational and personal analysis purposes.
+      </p>
+
+      <h2>2. No Affiliation with Instagram</h2>
+
+      <p>
+        The App is not affiliated, sponsored, authorized, or administered by Instagram or
+        Meta Platforms, Inc.
+      </p>
+
+      <p>
+        Instagram and Meta are registered trademarks of their respective owners.
+        The use of such names is for descriptive purposes only.
+      </p>
+
+      <h2>3. Data Usage and Privacy</h2>
+
+      <ul>
+        <li>The App does not request Instagram username, password, or credentials.</li>
+        <li>The JSON files are manually downloaded by the user themselves from Instagram.</li>
+        <li>Processing of files is performed locally in the user's browser.</li>
+        <li>The App does not store, save, transmit, or share the JSON files or their data.</li>
+      </ul>
+
+      <p>
+        The user is solely responsible for the data they decide to upload and analyze.
+      </p>
+
+      <p>
+        For more information, consult our <a href="privacy.html">Privacy Policy</a>.
+      </p>
+
+      <h2>4. User Responsibility</h2>
+
+      <ul>
+        <li>Use of the App is at your own risk.</li>
+        <li>The App does not guarantee the accuracy, integrity, or update status of the results shown.</li>
+        <li>The user is responsible for complying with Instagram's Terms of Use and applicable laws.</li>
+        <li>
+          The App is not responsible for suspensions, restrictions, blocks, or penalties
+          derived from the use of information obtained from Instagram.
+        </li>
+      </ul>
+
+      <h2>5. Limitation of Liability</h2>
+
+      <p>
+        In no event shall <strong>[Name of responsible party or site]</strong> be liable for:
+      </p>
+
+      <ul>
+        <li>Direct or indirect damages derived from the use or inability to use the App.</li>
+        <li>Loss of data, accounts, or information.</li>
+        <li>Decisions made by the user based on the tool's results.</li>
+        <li>Technical errors, service interruptions, or browser failures.</li>
+      </ul>
+
+      <h2>6. Proper Use</h2>
+
+      <ul>
+        <li>Use the App solely for personal and legitimate purposes.</li>
+        <li>Do not use it for illicit or abusive activities.</li>
+        <li>Do not attempt to modify, decompile, or interfere with the App's operation.</li>
+      </ul>
+
+      <h2>7. Advertising and Monetization</h2>
+
+      <p>
+        The App may display third-party advertisements for monetization purposes.
+      </p>
+
+      <p>
+        These advertisements may use cookies or similar technologies in accordance with the Privacy Policy.
+      </p>
+
+      <h2>8. Modifications</h2>
+
+      <p>
+        We reserve the right to modify these Terms and Conditions at any time.
+        Modifications will be effective upon posting on the website.
+      </p>
+
+      <h2>9. Applicable Law</h2>
+
+      <p>
+        These Terms and Conditions are governed by the laws of <strong>[country of responsible party]</strong>,
+        without prejudice to applicable consumer protection provisions.
+      </p>
+
+      <h2>10. Contact</h2>
+
+      <p>
+        For any inquiries related to these Terms and Conditions, you can contact us at:
+      </p>
+
+      <p>
+        📧 <strong>[contact email]</strong>
+      </p>
+    </div>
+
+  </div>
+
+  <script>
+    function changeLang(lang) {
+      // Save preference
+      localStorage.setItem('preferredLang', lang);
+      document.documentElement.lang = lang;
+
+      // Toggle content
+      document.getElementById('content-es').style.display = lang === 'es' ? 'block' : 'none';
+      document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+
+      // Update buttons
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        if ((lang === 'es' && btn.textContent.includes('Español')) ||
+          (lang === 'en' && btn.textContent.includes('English'))) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function () {
+      const savedLang = localStorage.getItem('preferredLang') || 'es';
+      changeLang(savedLang);
+    });
+  </script>
+</body>
+
+</html>
