@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eduapps23.github.io/instaUnfollowers/sitemap.xml
